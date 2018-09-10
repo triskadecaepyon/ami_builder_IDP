@@ -19,12 +19,12 @@
     },
     "instance_type": "t2.micro",
     "ssh_username": "ubuntu",
-    "ami_name": "packer-idp-ubuntu-3_core {{timestamp}}"
+    "ami_name": "packer-idp-ubuntu-2_core {{timestamp}}"
   }],
     "provisioners": [
         {
          "type": "shell",
-         "script": "./build_idp3_core.sh"
+         "script": "./build_idp2_core.sh"
         }
     ]
 }
